@@ -1586,13 +1586,22 @@ a.text-dark:hover, a.text-dark:focus {
   position:relative;
   height:0;
 }
-.map-responsive iframe{
+
+.reg-responsive{
+  overflow:hidden;
+  padding-bottom:50%;
+  position:relative;
+  height:1092px;
+}
+
+.map-responsive iframe, .reg-responsive iframe{
   left:0;
   top:0;
   height:100%;
   width:100%;
   position:absolute;
 }
+
 
 .slider {
   width: 75vw;
