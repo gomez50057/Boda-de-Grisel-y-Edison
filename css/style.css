@@ -26,7 +26,7 @@
   --warning: #F8E48C;
   --danger: #dc3545;
   --light: #FFFFFF;
-  --dark: #121F38;
+  --dark: #013473;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -61,7 +61,7 @@ body {
   line-height: 1.5;
   color: #818491;
   text-align: left;
-  background-color: rgb(246, 247, 242);
+  background-color: #fff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -199,8 +199,9 @@ h1, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-weight: 600;
   line-height: 1.2;
-  color: #121F38;
+  color: #013473;
 }
+
 
 h1, .h1 {
   font-size: 2.5rem;
@@ -1299,7 +1300,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-dark {
-  color: #121F38!important;
+  color: #013473!important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
