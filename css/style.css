@@ -307,8 +307,7 @@ a > code {
 
 .container-event {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 1px;
+  
   margin-right: auto;
   margin-left: auto;
 }
@@ -339,12 +338,10 @@ a > code {
   margin-left: -15px;
 }
 
-.row-3 {
+.container-event .row-3 {
   display: flex;
-  flex-wrap: nowrap;
-  max-width: 500px;
-
-  
+  flex-wrap: wrap;
+  max-width: 100%;  
 }
 
 @media (max-width: 767px) {
@@ -353,12 +350,15 @@ a > code {
   }
 }
 
-
+.row-3 .col-md-6{
+  display: flex;
+  flex-wrap: wrap;
+  max-width:100%;
+}
 
  .col-12, .col-md-6, .col-lg-4 {
   position: relative;
   width: 100%;
- 
 }
 
 .col-12 {
@@ -371,6 +371,11 @@ a > code {
     flex: 0 0 50%;
     max-width: 50%;
   }
+  .row-3 .col-md-6{
+    flex: 0 0 100%;
+    max-width:calc(100%/3);
+  }
+  
 }
 
 @media (min-width: 992px) {
@@ -1095,7 +1100,7 @@ button.bg-dark:focus {
 }
 
 .mb-4 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: none !important;
 }
 
 
@@ -1623,6 +1628,12 @@ a.text-dark:hover, a.text-dark:focus {
 @media (max-width: 767.98px) {
   #event .border-right {
     border-right: none !important;
+  }
+  #event .border-left {
+    border-left: none !important;
+  }
+  .mb-4 {
+    margin-bottom: 1.5rem !important;
   }
 }
 
