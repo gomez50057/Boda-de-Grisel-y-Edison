@@ -1152,14 +1152,15 @@ button.bg-dark:focus {
 }
 
 .p-3 {
-  padding: 60px 50px 30px 300px !important;
+  padding: 60px 50px 230px 300px !important;
 }
 
-/* @media (max-width: 690px) {
-  /* .p-3 {
+@media (max-width: 890px) {
+  .p-3 {
     padding: 60px 50px 80px 300px !important;
   }   
-} */
+  
+}
 
 
 .py-3 {
